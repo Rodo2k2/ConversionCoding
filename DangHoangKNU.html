@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <title>XayNha</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+
 </head>
 <body>
 <a-scene>
 
     <a-plane  repeat= "10" src="ceilling1.jpg" position="0 0 0" rotation="-90 0 0" width="22" height="27"></a-plane>
     <a-plane  repeat= "10" src="floor2.jpg" position="0 10 0" rotation="90 0 0" width="22" height="27"></a-plane>
-    <a-box repeat="10" src="wall1.jpg" position="0 5 -13.5" width="22" height="10" depth="0.155" ></a-box>
-    <a-box repeat="10" src="wall1.jpg" position="0 5 13.5" rotation="0 180 0" width="22" height="10" depth="0.155" ></a-box>
-    <a-box repeat="10" src="wall1.jpg" position="-11 5 0" rotation="0 90 0" width="27" height="10" depth="0.155" ></a-box>
-    <a-box repeat="10" src="wall1.jpg" position="11 5 3.5" rotation="0 -90 0" width="21" height="10" depth="0.155" ></a-box> // wall right
-    <a-box repeat="10" color="white" position="-11 5 -5" rotation="0 -90 0" width="1" height="10" depth="0.5" ></a-box> //xa ben trai
-    <a-box repeat="10" color="white" position="-11 5 5" rotation="0 -90 0" width="1" height="10" depth="0.5" ></a-box> // left
-    <a-box repeat="10" color="white" position="11 5 5" rotation="0 -90 0" width="1" height="10" depth="0.5" ></a-box> // xa ben phai
-    <a-box repeat="10" color="white" position="11 5 -5" rotation="0 -90 0" width="1" height="10" depth="0.5" ></a-box> //right
-    <a-box repeat="0.55" src="door1.jpg" position="11 5 -7" rotation="0 180 0" width="2" height="10" depth="0.5" ></a-box> //door
-    <a-box repeat="0.55" src="door1.jpg" position="11 5 -9" rotation="0 -180 0" width="2" height="10" depth="0.5" ></a-box> //door
-    <a-box repeat="1" src="window1.jpg" position="11 7.5 -12" rotation="0 -90 0" width="3" height="5" depth="0.5" ></a-box> //window
+    <a-box repeat="8" src="wall1.jpg" position="0 5 -13.5" width="22" height="10" depth="0.155" ></a-box>
+    <a-box repeat="8" src="wall1.jpg" position="0 5 13.5" rotation="0 180 0" width="22" height="10" depth="0.155" ></a-box>
+    <a-box repeat="8" src="wall1.jpg" position="-11 5 0" rotation="0 90 0" width="27" height="10" depth="0.155" ></a-box>
+    <a-box repeat="8" src="wall1.jpg" position="11 5 3.5" rotation="0 -90 0" width="21" height="10" depth="0.155" ></a-box> // wall right
+    <a-box repeat="10" color="white" position="-10.5 5 -5" rotation="0 -90 0" width="1" height="10" depth="0.5" ></a-box> //xa ben trai
+    <a-box repeat="10" color="white" position="-10.5 5 5" rotation="0 -90 0" width="1" height="10" depth="0.5" ></a-box> // left
+    <a-box repeat="10" color="white" position="10.5 5 5" rotation="0 -90 0" width="1" height="10" depth="0.5" ></a-box> // xa ben phai
+    <a-box repeat="10" color="white" position="10.5 5 -5" rotation="0 -90 0" width="1" height="10" depth="0.5" ></a-box> //right
+    <a-box repeat="0.55" src="door1.jpg" position="12 5 -7" rotation="0 180 0" width="2" height="10" depth="0.3" ></a-box> //door
+    <a-box repeat="0.55" src="door1.jpg" position="12 5 -10" rotation="0 -180 0" width="2" height="10" depth="0.5" ></a-box> //door
+    <a-box repeat="1" src="window1.jpg" position="11 7.5 -12" rotation="0 -90 0" width=3.5 height="5" depth="0.25" ></a-box> //window
+    <a-box src="tv.jpg" position="0 5 -13.375" width="9" height="4" depth="0.125" ></a-box>
+    <a-box src="whiite.jpg" position="0 3 -13.375" width="2" height="0.2" depth="0.125" ></a-box>
 
+    <a-box repeat="8" src="wall1.jpg" position="11 5 3.5" rotation="0 -90 0" width="21" height="10" depth="0.155" ></a-box> // wall right
+    <a-box color="gray" position="-10.5 5 -13" rotation="0 0 0" width="1" height="10" depth="1" ></a-box> // xa ben phai
+    <a-box repeat="0.5" src="wall1.jpg" position="11 2.5 -12" rotation="0 -90 180" width="3.5" height="5" depth="0.25" ></a-box> // wall right
 
     <a-sky src="sky1.jpg"></a-sky>
 
